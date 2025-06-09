@@ -108,7 +108,7 @@ pipeline_category.fit(X_train_c['Processed_Summary'], y_train_c)
 pipeline_duration.fit(X_train_d['Processed_Summary'], y_train_d)
 
 # Streamlit UI for user interaction
-st.title('TicketIQ and Insights')
+st.title('InfinityKB.AI - Ticket Assistant')
 
 # Input fields
 summary = st.text_input('Name / Summary')
